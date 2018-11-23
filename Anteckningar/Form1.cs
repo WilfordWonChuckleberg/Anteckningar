@@ -48,7 +48,7 @@ namespace Anteckningar
             if (dialogResult == DialogResult.OK)
             {
                 System.IO.File.WriteAllLines(saveFileDialog1.FileName, richTextBox1.Lines);
-
+                
             }
         }
     }
